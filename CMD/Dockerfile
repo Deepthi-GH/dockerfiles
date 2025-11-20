@@ -1,5 +1,4 @@
-FROM almalinux:9
-RUN dnf install nginx -y
+FROM run:v1 
 CMD ["nginx", "-g", "daemon off;"]
 
 # first it takes base Os and installs nginx inside os.
