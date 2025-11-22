@@ -3,4 +3,4 @@ RUN dnf install nginx -y
 RUN useradd deepthi
 
 USER deepthi
-CMD["sleep", "1000"]
+CMD ["sleep", "1000"]
